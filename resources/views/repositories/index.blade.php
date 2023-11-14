@@ -7,12 +7,13 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-4">
                 <table>
                     <thead>
                         <tr>
                             <th>ID</th>
                             <th>Enlace</th>
+                            <th>&nbsp;</th>
                             <th>&nbsp;</th>
                         </tr>
                     </thead>
@@ -31,7 +32,7 @@
                                     Editar
                                 </a>
                             </td>
-                        </tr>   
+                        </tr>
                         @empty
                         <tr>
                             <td colspan="4">No hay repositorios creados</td>
