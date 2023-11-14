@@ -37,7 +37,7 @@
                                     <a href="{{ route('repositories.edit', $repository) }}">
                                         Editar
                                     </a>
-                                </td>
+                                </td>                               
                                 <td class="px-4 py-2">
                                     <form action="{{ route('repositories.destroy', $repository) }}" method="post">
                                         @csrf
